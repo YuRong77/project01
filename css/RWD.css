@@ -1,0 +1,305 @@
+
+
+
+@media(max-width:1020px){
+
+    /*home*/
+
+    .feature{
+        margin: 0;
+    }
+
+    .feature li{
+        margin:20px 3% 50px 3%;
+        width: 27.33333%;
+    }
+
+    .chef-photo img{
+        width: 45%;
+        height: 460px;
+    }
+
+    .introduction{
+        width: 40%;
+    }
+
+    .comment-content li{
+        width: 30%;
+    }
+
+    /*cart*/
+
+    .main-cart{
+        padding: 48px 2% 0 2%;
+    }
+
+    .aside{
+        width: 25%;
+        margin-right: 3%;
+    }
+
+    .content{
+        width: 70%;
+    }
+
+    .search {
+        width: 70%;
+    }
+
+    .search input{
+        width: 85%;
+    }
+
+    .product li{
+        width: 31.33333%;
+        margin-right: 2%;
+    }
+
+    .product button{
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    
+
+
+
+}
+
+
+@media(max-width:768px){
+    
+    .chef-photo img{
+        width: 373px;
+        height: 460px;
+        margin-left: 10px;
+    }
+
+    .introduction{
+        width: 40%;
+        margin-top: 49px;
+    }
+
+    .comment-content ul{
+        margin-left: 15px;
+    }
+
+    .comment-content li{
+        width: 230px;
+        margin-right: 10px;
+    }
+
+    .text-box{
+        width: 150px;
+    }
+
+    .map-content img{
+        margin-left: 10px;
+    }
+
+    .footer{
+        padding: 50px 10px;
+    }
+
+}
+
+@media(max-width:767px){
+
+    .showmenu{
+        display: block;
+    }
+
+    .nav{
+        max-height: 0px;
+        overflow: hidden;
+        transition: max-height 0.5s;
+        position: absolute;
+        top: 56px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background: rgba(0,0,0,0.85);
+    }
+
+    .nav li a{
+        width: 100%;
+        height: 45px;
+        line-height: 45px;
+        border-bottom: 0.5px solid rgb(255, 255, 255,0.75);
+    }
+
+    .menu-show .nav{
+        max-height: 230px
+      }
+
+    .nav li{
+        float: none;
+    }
+
+    .text-banner{
+        width: 70%;
+    }
+
+    .feature li{
+        float: none;
+        width: 96%;
+        margin: 0;
+        padding: 10px 2%;
+    }
+
+    .chef-content{
+        text-align: center;
+    }
+
+    .chef-photo img{
+        width: 80%;
+        height: 80%;
+        margin: 0;
+        float: none;
+    }
+
+    .introduction{
+        float: none;
+        width: 96%;
+        padding: 20px 2%;
+        margin: 0;
+    }
+
+    .comment-content li{
+        float: none;
+        width: 95%;
+    }
+
+    .comment-content img{
+        margin-bottom: 55px;
+    }
+
+    .text-box{
+        float: none;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .text-box h4{
+        margin-top: 0;
+    }
+
+    /*cart*/
+
+    .aside h3 i{
+        display: none;
+    }
+
+    .search{
+        width: 50%; 
+    }
+
+    .search input{
+        width: 80%;
+    }
+
+    .product li{
+        width: 48%;
+        height: 270px;
+        margin-right: 2%;
+    }
+
+
+}
+
+@media(max-width:600px){
+    
+    /*cart*/
+    .aside{
+        width: 100%;   
+        margin-bottom: 20px;
+    }
+    .content{
+        width: 100%;
+    }
+}
+
+@media(max-width:420px){
+    .banner{
+        background-image: url(../img/header_mobile.png);
+    }
+
+    .line{
+        display: none;
+    }
+
+    .feature p{
+        width: 75%;
+        margin: auto;
+    }
+
+    .chef-photo img{
+        width: auto;
+        height: auto;
+    }
+
+    .introduction{
+        width: 240px;
+        text-align: left;
+        margin: auto;
+    }
+
+    .map-content img{
+        float: none;
+        width: auto;
+        margin: 0;
+    }
+
+    .customerdata{
+        float: none;
+        width: auto;
+        padding: 20px 20px 40px 20px;
+    }
+
+    .cancel,.submit{
+        bottom: 10px;
+    }
+
+    .about{
+        float: none;
+        width: auto;
+        margin-bottom: 30px;
+    }
+
+    .contact{
+        float: none;
+        width: auto;
+        margin-bottom: 30px;
+    }
+
+    .footer-logo{
+        width: auto;
+    }
+
+    .link{
+        margin-top: 10px;
+    }
+
+
+    /*cart*/
+
+    .search{
+        width: 100%;
+    }
+
+    .search input{
+        width: 85%;
+    }
+
+    .topbar a{
+        margin: 20px 10px 0 0;
+    }
+
+    .product li{
+        float: none;
+        width: 250px;
+        margin: 20px auto;
+    }
+
+    
+}
